@@ -131,7 +131,7 @@ GET /api/anime/:id
 
 ## 👨‍💻 Autor
 
-Desarrollado por **Kenpachi** 😏
+Desarrollado por **Mariano Monje Isleño** 
 (Técnico en Desarrollo de Software)
 
 ---
