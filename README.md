@@ -6,7 +6,7 @@ Aplicación web fullstack para explorar anime, consultar detalles, ver plataform
 
 ## 🚀 Demo
 
-👉 Backend: https://anime-server-zt8x.onrender.com
+👉 Backend: Alojado en Render
 👉 Frontend: *(agregar link cuando lo deployes)*
 
 ---
