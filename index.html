@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>Anime Explorer</h1>
+      <p>Buscá anime, guardá favoritos y mirá detalles, plataformas y trailer.</p>
+    </header>
+
+    <section class="search-section">
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Buscar anime... Ej: Naruto, One Piece, Pokémon"
+          autocomplete="off"
+        />
+        <button id="searchBtn" type="button">Buscar</button>
+        <button id="favoritesBtn" type="button" class="secondary-btn">Ver favoritos</button>
+      </div>
+
+      <div class="top-bar">
+        <div class="favorites-counter">
+          Favoritos: <span id="favoritesCount">0</span>
+        </div>
+      </div>
+
+      <div class="history-bar">
+        <div>
+          <strong>Últimas búsquedas:</strong>
+          <div id="recentSearches" class="recent-searches"></div>
+        </div>
+        <button id="clearHistoryBtn" type="button" class="ghost-btn">Limpiar historial</button>
+      </div>
+
+      <p id="statusMessage" class="status-message"></p>
+    </section>
+
+    <main>
+      <section id="results" class="results-grid"></section>
+    </main>
+  </div>
+
+  <div id="modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-content">
+      <button id="closeModal" class="close-btn" aria-label="Cerrar modal">✖</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
